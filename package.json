@@ -1,0 +1,17 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "Лабораторна робота 4: найпростіший HTTP-сервер на Node.js (варіант 6, titanic.json)",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js -i titanic.json -h 127.0.0.1 -p 3000",
+    "dev": "node --watch main.js -i titanic.json -h 127.0.0.1 -p 3000"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
+}
